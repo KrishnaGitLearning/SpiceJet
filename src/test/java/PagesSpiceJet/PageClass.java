@@ -362,12 +362,11 @@ public class PageClass extends UtilsClass {
 			clickElement(INR);
 			//clickElement(student);
 			clickElement(searchFlight);
-			clickElement(popupWindow);
-			clickElement(check);
-			clickElement(continueOption);
-			String messagetrip = message.getText();
-			System.out.println(messagetrip);
-			
+			//clickElement(popupWindow);
+			//clickElement(check);
+			//clickElement(continueOption);
+			Thread.sleep(5000);
+			Screenshot(driver, "C:\\Users\\krishnamoorthy.kasi\\OneDrive - SoftwareONE\\Desktop\\Selenium Original\\SpiceJet\\ScreenshotSpiceJet.jpg");
 			
 			
 			//clickElement(next);

@@ -70,10 +70,15 @@ public class UtilsClass {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			break;
+		case "Edge" :
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+			break;
+		
 			
 		default:
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
 			System.out.println("NO Valid option given choosing the default browser");
 			
 		}

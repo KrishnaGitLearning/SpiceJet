@@ -5,9 +5,9 @@
     <classes>
       <class name="TestCasesSpiceJet.TestCasesClass">
         <methods>
-          <include name="TestCase005"/>
           <include name="start"/>
           <include name="close"/>
+          <include name="TestCase001"/>
         </methods>
       </class> <!-- TestCasesSpiceJet.TestCasesClass -->
     </classes>
